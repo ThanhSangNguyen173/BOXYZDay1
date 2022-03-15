@@ -14,7 +14,8 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ĐĂNG NHẬP"
+        android:drawableBottom="@drawable/ic_baseline_lock_24"
+        android:text="ĐĂNG NHẬP TÀI KHOẢN BOXYZVN"
         android:textStyle="bold"
         android:gravity="center"
         android:background="#D11F1F"/>
@@ -24,14 +25,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Nhập email"
+        android:drawableLeft="@drawable/rsz_download"
+        android:hint="  Nhập email"
         android:inputType="textEmailAddress" />
 
     <EditText
         android:id="@+id/mk"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nhập mật khẩu"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:hint="  Nhập mật khẩu"
         android:ems="10"
         android:inputType="textPassword" />
 
